@@ -1,0 +1,168 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: calc(24 / 14 * 100%);
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Скритий елемент сторінки */
+.features > h2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+/* ---------Колір лого------------- */
+:root {
+  --brend-color: #2196f3;
+}
+/* -------------------------------------- */
+
+.header {
+
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26 * 100%);
+  text-decoration: none;
+  color: #000000;
+}
+.logo > .accent{
+  color: var(--brend-color);
+}
+.header-menu {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  line-height: calc(16 / 14 * 100%);
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--brend-color);
+}
+.header-address a {
+  font-weight: 500;
+  line-height: calc(16 / 14 * 100%);
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-address a:hover,
+.header-address a:focus {
+  color: var(--brend-color);
+}
+/* ---------------------------- */
+.page {
+}
+
+/* ---------------------------- */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 14 * 100%);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 14 * 100%);
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/* ---------------------------- */
+.features {
+}
+.features-list {
+}
+.features-item {
+}
+.features-item > h3 {
+  font-weight: 700;
+  line-height: calc(16 / 14 * 100%);
+  text-transform: uppercase;
+  color: #212121;
+}
+.features-item > p {
+  font-weight: 400;
+}
+
+/* ---------------------------- */
+.box {
+}
+.box-list {
+}
+.box-item {
+}
+/* ------------------------------- */
+.box h2,
+.team h2 {
+  font-size: 36px;
+  line-height: calc(42 / 36 * 100%);
+  color: #212121;
+  text-align: center;
+}
+/* ---------------------------- */
+.team {
+  background-color: #f5f4fa;
+}
+.team-list {
+}
+.team-item {
+}
+
+.team-item > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16 * 100%);
+  color: #212121;
+}
+.team-item > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16 * 100%);
+}
+
+/* ---------------------------- */
+.footer {
+  background-color: #2f303a;
+}
+.footer-address > p {
+  font-weight: 400;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.footer-address > a {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
